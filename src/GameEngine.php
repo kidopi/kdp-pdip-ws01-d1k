@@ -1,4 +1,7 @@
 <?php
+
+    namespace PokeJogo;
+
     class GameEngine{
         
         # Lista de pokemons possíveis para aleatorização em wildPokemonAppearedDo()

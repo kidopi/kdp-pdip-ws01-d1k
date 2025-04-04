@@ -1,8 +1,11 @@
-
 <?php
+
+require __DIR__ . '/vendor/autoload.php';
+
 // ./src/Utils.php
 require_once('src/Utils.php');
-require_once('src/GameEngine.php');
+
+use PokeJogo\GameEngine;
 
 # Novo jogo
 $gameEngine = new GameEngine();

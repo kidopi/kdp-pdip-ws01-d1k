@@ -1,0 +1,11 @@
+{
+    "name": "kidopi/pokejogo",
+    "type": "project",
+    "version": "0.0.1",
+
+    "autoload": {
+        "psr-4": {"PokeJogo\\": "src/"}
+    },
+
+    "require": {}
+}
